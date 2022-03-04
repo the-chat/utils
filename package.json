@@ -1,0 +1,7 @@
+{
+  "name": "@the-chat/utils",
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "repository": "git://github.com/the-chat/utils"
+}
