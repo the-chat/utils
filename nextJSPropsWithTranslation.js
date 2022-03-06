@@ -1,1 +1,1 @@
-export { default } from "./dist/nextJSPropsWithTranslation"
+exports = require("./dist/nextJSPropsWithTranslation")
