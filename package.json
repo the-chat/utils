@@ -7,7 +7,8 @@
     "prepublish": "rm -rf dist&&tsc"
   },
   "files": [
-    "dist"
+    "dist",
+    "nextJSPropsWithTranslation"
   ],
   "repository": "git://github.com/the-chat/utils",
   "devDependencies": {
