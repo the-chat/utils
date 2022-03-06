@@ -1,1 +1,1 @@
-exports = require("./dist/nextJSPropsWithTranslation")
+module.exports = require("./dist/nextJSPropsWithTranslation")
