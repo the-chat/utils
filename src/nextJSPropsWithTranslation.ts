@@ -11,7 +11,7 @@ type A<T, D> = T extends D ? never : T
 // todo??????: unique args
 // todo???: delete fn that exists only for types
 // A - Allowed (A<a,b> = if a NOT in b), L - Locale(s), P - Locale(s) on every Page, CL - CurrentLocale(s), GP - GetProps
-export const getNJPWT =
+const getNJPWT =
   <
     L extends string,
     GP extends GetServerSideProps | GetStaticProps = GetServerSideProps
@@ -43,6 +43,8 @@ export const getNJPWT =
         },
       }
     }) as unknown as GP
+
+export default getNJPWT
 
 // tests
 // type AL = "a" | "b" | "c" | "d" | "e" | "f"
