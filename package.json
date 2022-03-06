@@ -1,6 +1,6 @@
 {
   "name": "@the-chat/utils",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "license": "MIT",
   "main": "dist/index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "files": [
     "dist",
-    "nextJSPropsWithTranslation"
+    "nextJSPropsWithTranslation.js"
   ],
   "repository": "git://github.com/the-chat/utils",
   "devDependencies": {
