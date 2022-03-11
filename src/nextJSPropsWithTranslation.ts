@@ -6,12 +6,9 @@ import {
 import { serverSideTranslations } from "next-i18next/serverSideTranslations"
 import { DEFAULT_LOCALE } from "@the-chat/config"
 
-type A<T, D> = T extends D ? never : T
-
 // TODO?????????????????: locales should not match localesOnEveryPage (ts)
 // todo??????: unique args
 // todo???: delete fn that exists only for types
-// A - Allowed (A<a,b> = if a NOT in b), L - Locale(s), P - Locale(s) on every Page, CL - CurrentLocale(s), GP - GetProps
 
 const getNJPWT =
   <
